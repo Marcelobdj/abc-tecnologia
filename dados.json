@@ -1,0 +1,58 @@
+{
+  "vagas": [
+    {
+      "id": 1,
+      "titulo": "Programador Java"
+    },
+    {
+      "id": 2,
+      "titulo": "Dev. Front-End"
+    },
+    {
+      "id": 3,
+      "titulo": "Analista de Dados"
+    },
+    {
+      "id": 4,
+      "titulo": "Dev C#"
+    },
+    {
+      "id": 5,
+      "titulo": "Professor de Excel"
+    }
+  ],
+  "candidatos": [
+    {
+      "nome": "MARCELO B DI JORGE",
+      "data": "1993-10-11",
+      "telefone": "31996545514",
+      "email": "marcelobdij@gmail.com",
+      "vaga": "Dev. Front-End",
+      "id": 1
+    },
+    {
+      "nome": "Gandalf The Gray",
+      "data": "0001-01-01",
+      "telefone": "não tem",
+      "email": "gandalf@aman.com",
+      "vaga": "Programador Java",
+      "id": 2
+    },
+    {
+      "nome": "Annatar",
+      "data": "0512-04-11",
+      "telefone": "0800FIRE",
+      "email": "sauron@mordor.com",
+      "vaga": "Dev C#",
+      "id": 3
+    },
+    {
+      "nome": "MARCELO B DI JORGE",
+      "data": "1111-11-11",
+      "telefone": "31996545514",
+      "email": "marcelobdij@gmail.com",
+      "vaga": "Programador Java",
+      "id": 4
+    }
+  ]
+}

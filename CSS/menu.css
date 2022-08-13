@@ -1,0 +1,58 @@
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    overflow: hidden;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+
+.menu a:hover,
+.menu a:focus {
+    background-color: white;
+    color: blue;
+}
+
+/* deixando os ítens da lista "flutuados" à esquerda (na prática, fica lado a lado) */
+
+.menu li {
+    float: left;
+}
+
+/* escondendo o ítem que tem o ícone do Menu */
+.menu li.icone {
+    display: none;
+}
+
+@media screen and (max-width: 760px) {
+
+    /* escondendo os itens do menu */
+    .menu li {
+        display: none;
+    }
+
+    .menu li.icone {
+        display: block;
+        float: right;
+    }
+
+    .menu.aberto li {
+        float: none;
+        display: inline;
+    }
+
+    .menu.aberto li.icone{
+        position: absolute;
+        right: 0; top: 0;
+    }
+
+    .menu.aberto {
+        position: relative;
+    }
+}
